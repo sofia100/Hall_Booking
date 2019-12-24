@@ -1,0 +1,36 @@
+﻿#Text1 {
+    width: 248px;
+}
+
+#Password1 {
+    width: 247px;
+}
+
+.text {
+    color: white;
+    text-align: center;
+}
+
+.menubar {
+    background-color: aquamarine;
+    height: 50px;
+    width: 1100px;
+}
+
+.box {
+    border: 3px solid #7fffd4;
+    height: 200px;
+    width: 873px;
+    text-align: center;
+    align-self: center;
+    margin: 0px 0px 0px 90px;
+}
+
+.body {
+    background-image: linear-gradient( #3566c2, #46c446);
+    background-repeat: no-repeat;
+}
+
+.img {
+    background-image: url("ioclpdp.jpg");
+}
