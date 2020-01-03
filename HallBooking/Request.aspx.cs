@@ -23,6 +23,7 @@ namespace HallBooking
         {
              username = Session["username"].ToString();
             Response.Write("Welcome " + username);
+            Session["username"] = username;
 
         }
 

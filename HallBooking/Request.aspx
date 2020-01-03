@@ -39,8 +39,11 @@
   
         <asp:Menu ID="Menu1" class="menubar" runat="server" Orientation="Horizontal" CssClass="menu">
     <Items>
-        <asp:MenuItem Text="Logout"  NavigateUrl="Login.aspx" /> 
-        <asp:MenuItem Text="Report" NavigateUrl="Report.aspx" />
+        <asp:MenuItem Text="Report     |" NavigateUrl="Report.aspx" />
+        
+        
+        <asp:MenuItem Text="Delete     |" Target="delete()"  NavigateUrl="UserDelete.aspx" /> 
+        <asp:MenuItem Text="Logout     "  NavigateUrl="Login.aspx" /> 
     </Items>
 </asp:Menu>
 

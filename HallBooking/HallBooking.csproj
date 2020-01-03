@@ -75,6 +75,7 @@
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
     <Content Include="style.css" />
+    <Content Include="UserDelete.aspx" />
     <Content Include="Web.config" />
     <Content Include="Request.aspx" />
     <Content Include="Report.aspx" />
@@ -111,6 +112,13 @@
     </Compile>
     <Compile Include="Report.aspx.designer.cs">
       <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserDelete.aspx.cs">
+      <DependentUpon>UserDelete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserDelete.aspx.designer.cs">
+      <DependentUpon>UserDelete.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -14,7 +14,7 @@
         <div>
              <asp:Menu ID="Menu1" class="menubar" runat="server" Orientation="Horizontal" CssClass="menu">
     <Items>
-        <asp:MenuItem Text="Login"  NavigateUrl="Login.aspx" /> 
+        <asp:MenuItem Text="Login |"  NavigateUrl="Login.aspx" /> 
         <asp:MenuItem Text="Report" NavigateUrl="Report.aspx" />
     </Items>
                  </asp:Menu>
@@ -23,10 +23,10 @@
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" DataKeyNames="RequestId" DataSourceID="SqlDataSource1" GridLines="Horizontal">
             <Columns>
                 <asp:BoundField DataField="RequestId" HeaderText="RequestId" ReadOnly="True" SortExpression="RequestId" />
-                <asp:BoundField DataField="RequestedDate" HeaderText="RequestedDate" SortExpression="RequestedDate" />
+               <asp:BoundField DataField="BookedDate" HeaderText="BookedDate" SortExpression="BookedDate" />
+                 <asp:BoundField DataField="RequestedDate" HeaderText="RequestedDate" SortExpression="RequestedDate" />
                 <asp:BoundField DataField="EmployeeId" HeaderText="EmployeeId" SortExpression="EmployeeId" />
                 <asp:BoundField DataField="Hall" HeaderText="Hall" SortExpression="Hall" />
-                <asp:BoundField DataField="BookedDate" HeaderText="BookedDate" SortExpression="BookedDate" />
                 <asp:BoundField DataField="BookStatus" HeaderText="BookStatus" SortExpression="BookStatus" />
                 <asp:BoundField DataField="LastUpdatedOn" HeaderText="LastUpdatedOn" SortExpression="LastUpdatedOn" />
                 <asp:BoundField DataField="EntryBy" HeaderText="EntryBy" SortExpression="EntryBy" />

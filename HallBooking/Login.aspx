@@ -15,7 +15,7 @@
         
         <asp:Menu ID="Menu1" class="menubar" runat="server" Orientation="Horizontal" CssClass="menu">
     <Items>
-        <asp:MenuItem Text="Login"  NavigateUrl="Login.aspx" /> 
+        <asp:MenuItem Text="Login |"  NavigateUrl="Login.aspx" /> 
         <asp:MenuItem Text="Report" NavigateUrl="Report.aspx" />
     </Items>
 </asp:Menu>
